@@ -20,7 +20,7 @@
           >hébergée via heroku</a
         >
         permettant de générer ses statistiques et les lyrics de la chanson en
-        cours d'écoute. Ce projet est un WIP
+        cours d'écoute. Ce projet est un WIP.
       </li>
       <li>
         Un site web fullstack de livraison de restaurant (<a
