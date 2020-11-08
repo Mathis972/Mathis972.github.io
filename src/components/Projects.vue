@@ -1,6 +1,6 @@
 <template>
-  <section id="Projects">
-    <h2>Mes travaux</h2>
+  <section class="section" id="Projects">
+    <h1 class="title">Mes travaux</h1>
     <ul>
       <li>
         <a href="https://github.com/Mathis972/Ekip-bot" target="blank"
@@ -12,8 +12,8 @@
       </li>
       <li>
         <a href="https://github.com/Mathis972/spotify-app" target="blank"
-          >Une application spotify</a
-        >
+          >Une application spotify
+        </a>
         <a
           href="https://nuxt-spotify-stats.herokuapp.com/spotify"
           target="blank"

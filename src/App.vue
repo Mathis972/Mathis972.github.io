@@ -1,14 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <Navbar />
   <HelloWorld msg="Welcome to Your Vue.js App" />
   <Projects></Projects>
   <Contact></Contact>
+  <Parcours />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Projects from "./components/Projects.vue";
 import Contact from "./components/Contact.vue";
+import Navbar from "./components/Navbar.vue";
+import Parcours from "./components/Parcours.vue";
 
 export default {
   name: "App",
@@ -16,6 +19,8 @@ export default {
     HelloWorld,
     Projects,
     Contact,
+    Navbar,
+    Parcours,
   },
 };
 </script>
@@ -26,7 +31,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: #00022e;
+}
+html {
+  scroll-behavior: smooth;
 }
 </style>
