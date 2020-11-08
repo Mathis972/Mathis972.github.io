@@ -8,7 +8,7 @@
         >
         : BOT discord permettant de jouer à action/vérité et de générer via une
         API des surnoms sous la forme d'émoji + mot + émoji (les émojis sont
-        scrapés au préalable) <br /><sub>Ex: 🐝 Attitude 🐝</sub>
+        scrapés au préalable). <br /><sub>Ex: 🐝 Attitude 🐝</sub>
       </li>
       <li>
         <a href="https://github.com/Mathis972/spotify-app" target="blank"
