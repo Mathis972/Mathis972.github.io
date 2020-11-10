@@ -1,5 +1,8 @@
 <template>
-  <section class="section" id="Contact">
+  <section
+    class="section "
+    id="Contact"
+  >
     <div class="container">
       <h1 class="title">Me contacter</h1>
       <h2 class="subtitle">

@@ -1,5 +1,9 @@
 <template>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar is-primary"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
       <a
         role="button"
@@ -14,13 +18,25 @@
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div
+      id="navbarBasicExample"
+      class="navbar-menu"
+    >
       <div class="navbar-start">
-        <a class="navbar-item" href="#Contact"> Contact </a>
+        <a
+          class="navbar-item"
+          href="#Contact"
+        > Contact </a>
 
-        <a class="navbar-item" href="#Projects"> Projects </a>
+        <a
+          class="navbar-item"
+          href="#Projects"
+        > Projects </a>
 
-        <a class="navbar-item" href="#Parcours"> Parcours </a>
+        <a
+          class="navbar-item"
+          href="#Parcours"
+        > Parcours </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link"> More </a>
