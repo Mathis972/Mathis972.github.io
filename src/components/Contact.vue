@@ -15,7 +15,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  //TODO réseau sociaux petit composant en fin de page, pas de formulaire
+};
 </script>
 
 <style>

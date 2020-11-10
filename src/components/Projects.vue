@@ -12,6 +12,7 @@
     class="section "
     id="Projects"
   >
+
     <div class="container">
       <div class="columns is-multiline is-centered ">
         <div
@@ -19,83 +20,22 @@
           v-for="project in state.projects"
           :key="project.title"
         >
-          <div class="box">
-            <article class="media">
-              <div class="media-left">
-                <figure class="image is-64x64">
-                  <img
-                    src="https://bulma.io/images/placeholders/128x128.png"
-                    alt="Image"
-                  >
-                </figure>
-              </div>
-              <div class="media-content">
-                <div class="content">
-                  <p>
-                    <a
-                      :href="!project.backLink ? project.githubLink : project.backLink"
-                      target="blank"
-                    >
-                      <strong>{{ project.title }}</strong>
-                    </a>
-                    <br>
-                    <span v-html="project.description"></span><br>
-                    <a
-                      v-if="project.siteLink"
-                      :href="project.siteLink"
-                      target="blank"
-                    >
-                      Site hébergé ici
-                    </a>
-                  </p>
-                </div>
+          <ProjectCard :project="project" />
 
-              </div>
-
-            </article>
-            <div
-              v-if="project.backLink"
-              class="is-flex is-justify-content-space-evenly"
-            >
-              <button class="button is-primary">Back</button>
-              <button class="button is-link">Front</button>
-            </div>
-          </div>
         </div>
       </div>
-      <ul>
-        <li
-          v-for="project in state.projects"
-          :key="project.title"
-        >
-          <a
-            :href="project.githubLink"
-            target="blank"
-            v-if="!project.backLink"
-          >{{
-          project.title
-        }}</a>
-          <span v-else>{{ project.title }}(<a :href="project.githubLink">Back</a>,
-            <a :href="project.backLink"> Front</a>)
-          </span>
 
-          <span v-html="project.description"></span>
-          <a
-            v-if="project.siteLink"
-            :href="project.siteLink"
-            target="blank"
-          >
-            Site hébergé ici
-          </a>
-        </li>
-      </ul>
     </div>
   </section>
 </template>
 
 <script>
 import { reactive } from "vue";
+import ProjectCard from "./ProjectCard"
 export default {
+  components: {
+    ProjectCard
+  },
   setup() {
     const state = reactive({
       projects: [

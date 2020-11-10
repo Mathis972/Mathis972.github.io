@@ -15,7 +15,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  //RODO mon parcours, mes expériences et ce que j'ai appris, sous forme peut etre de timeline ou step
+};
 </script>
 
 <style>
