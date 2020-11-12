@@ -58,6 +58,7 @@
 
 <script>
 export default {
+  //TODO add techonlogies used section
   props: {
     project: Object
   },
