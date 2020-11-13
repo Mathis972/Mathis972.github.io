@@ -2,16 +2,14 @@
   <section
     class="section is-medium has-background-primary"
     style="padding-bottom: 14rem"
+    id="Projects"
   >
     <h1 class="title">Mes travaux</h1>
     <h2 class="subtitle">Me lancer dans de nouvelles technologies arrive souvent notamment grâce à mon cursus scholaire.<br>
       A poursuivre les nouveautés, parfois certains projets prennent plus de temps et de passions, les voici
     </h2>
   </section>
-  <section
-    class="section "
-    id="Projects"
-  >
+  <section class="section projects">
 
     <div class="container">
       <div class="columns is-multiline is-centered ">
@@ -92,7 +90,7 @@ export default {
 .subtitle {
   line-height: 1.5;
 }
-#Projects {
+.projects {
   margin-top: -8rem;
 }
 </style>

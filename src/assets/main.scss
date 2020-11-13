@@ -14,18 +14,20 @@ $beige-lighter: #EFF0EB;
 $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: #02066F;
-$info: #00022E;
-$link:#FF073A;
+//$primary: #02066F;
+$primary: #7bdff2;
+$info: #f2b5d4;
+$link:#f72585;
 
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+$body-background-color: #eff7f6;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+$footer-background-color: #f7d6e0;
 
 
 @import '~bulma';

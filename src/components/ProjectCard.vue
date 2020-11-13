@@ -36,7 +36,7 @@
           target="blank"
           style="color: white"
         >Back</a></button>
-      <button class="button is-link"><a
+      <button class="button is-info"><a
           :href="project.githubLink"
           target="blank"
           style="color: white"
@@ -67,5 +67,5 @@ export default {
 }
 </script>
 
-<style>
+<style >
 </style>
