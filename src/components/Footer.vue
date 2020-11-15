@@ -1,11 +1,13 @@
 <template>
   <footer class="footer">
+    <p>Written with ❤️ by me in 2020</p>
     <div class="content has-text-centered">
-      <p>
-        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-      </p>
+      <img
+        src="https://bulma.io/images/made-with-bulma--semiblack.png"
+        alt="Made with Bulma"
+        width="160"
+        height="30"
+      >
     </div>
   </footer>
 </template>
