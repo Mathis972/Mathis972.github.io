@@ -1,6 +1,9 @@
 <template>
 
   <Navbar />
+
+  <Me />
+
   <Projects></Projects>
 
   <Parcours />
@@ -13,7 +16,8 @@ import Projects from "./components/Projects.vue";
 import Contact from "./components/Contact.vue";
 import Navbar from "./components/Navbar.vue";
 import Parcours from "./components/Parcours.vue";
-import Footer from "./components/Footer.vue"
+import Footer from "./components/Footer.vue";
+import Me from "./components/Me.vue"
 
 export default {
   name: "App",
@@ -22,7 +26,8 @@ export default {
     Contact,
     Navbar,
     Parcours,
-    Footer
+    Footer,
+    Me
   },
 };
 </script>

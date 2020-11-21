@@ -44,7 +44,7 @@
         <div class="navbar-item">
           <div class="buttons">
             <a class="button is-link">
-              <strong>Sign up</strong>
+              <strong>Hello :D</strong>
             </a>
           </div>
         </div>

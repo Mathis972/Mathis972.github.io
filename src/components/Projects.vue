@@ -6,7 +6,7 @@
   >
     <h1 class="title">Mes travaux</h1>
     <h2 class="subtitle">Me lancer dans de nouvelles technologies arrive souvent notamment grâce à mon cursus scholaire.<br>
-      A poursuivre les nouveautés, parfois certains projets prennent plus de temps et de passions, les voici
+      Voici quelques un des projets dans lesquels je me suis lancé.
     </h2>
   </section>
   <section class="section projects">
